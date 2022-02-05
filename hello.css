@@ -1,0 +1,121 @@
+
+.container
+{
+	background-color: black;
+	
+
+}
+.list
+{
+	color:white;
+	list-style-type: none;
+	font-size: 20px;
+	
+}
+.list a:hover
+{
+	color:red;
+}
+
+.reg
+{
+	
+	color:rgb(0,160,100);
+	border:1.5px rgb(0,160,100) solid;
+	border-radius: 2px;
+	margin-left:50px;
+	padding:8px;
+}
+.box1
+{
+	background-color: black;
+}
+
+li
+{
+	display: inline;
+
+}
+
+#apollo
+{
+	color:rgb(0,160,100);
+	font-size: 40px;
+	margin-right: 400px;
+
+
+}
+.go
+{
+	margin-left: 50px;
+}
+.go a
+{
+	color:white;
+	text-decoration: none;
+
+}
+
+
+.box1 p
+{
+	color:rgb(0,240,10);
+	font-family: tahoma;
+}
+.box1 h1
+{
+	color:red;
+	font-family: tahoma;
+	text-align: center;
+	border: 1.5px yellow dashed;
+	padding:8px;
+}
+
+.box1 h2,h3,h4
+{
+	color:rgb(0,0,255);
+	font-family: tahoma;
+}
+
+#contact
+{
+	border:1.5px yellow solid;
+	padding:20px;
+	color:rgb(255,0,0);
+	text-decoration: none;
+}
+#co
+{
+	color:yellow;
+}
+
+.bye
+{
+	color:grey;
+	font-size:20px;
+	text-align: right;
+	margin:130px 130px;
+}
+.bye h2
+{
+	color:white;
+
+}
+.bye li
+{
+	color: rgb(0,160,100);
+	text-align:right;
+	margin:40px 50px;
+	border:1.9px rgb(0,160,100) solid;
+	padding:10px 20px;
+	border-radius: 3px;
+}
+.bye a
+{
+	text-decoration: none;
+	color: rgb(0,160,100);
+}
+.bye a:hover
+{
+	color:yellow;
+}
