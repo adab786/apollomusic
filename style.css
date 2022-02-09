@@ -1,289 +1,97 @@
-body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
 }
-.navbar-brand {
-  color: rgb(37, 238, 188);
-  font-size: large;
-  font-weight: bold;
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
 }
-.container {
-  border-radius: 50%;
+.container{
+	max-width: 1170px;
+	margin:auto;
 }
-
-.img-fluid {
-  margin: 10px;
-  padding: 10px;
+.row{
+	display: flex;
+	flex-wrap: wrap;
 }
-.text-center {
-  color: blanchedalmond;
+ul{
+	list-style: none;
 }
-.signup-form {
-  z-index: 1;
-  position: absolute;
-  right: 100px;
-  top: 50px;
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
 }
-
-.form-control,
-.form-control:focus,
-.input-group-addon {
-  border-color: #e1e1e1;
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
 }
-.form-control,
-.btn {
-  border-radius: 3px;
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
 }
-.signup-form {
-  width: 390px;
-  margin: 0 auto;
-  padding: 30px 0;
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
 }
-.signup-form form {
-  color: #999;
-  border-radius: 3px;
-  margin-bottom: 15px;
-  background: #fff;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-  padding: 30px;
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
 }
-.signup-form h2 {
-  color: #333;
-  font-weight: bold;
-  margin-top: 0;
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
 }
-.signup-form hr {
-  margin: 0 -30px 20px;
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
 }
-.signup-form .form-group {
-  margin-bottom: 20px;
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
 }
-.signup-form label {
-  font-weight: normal;
-  font-size: 13px;
-}
-.signup-form .form-control {
-  min-height: 38px;
-  box-shadow: none !important;
-}
-.signup-form .input-group-addon {
-  max-width: 42px;
-  text-align: center;
-}
-.signup-form input[type="checkbox"] {
-  margin-top: 2px;
-}
-.signup-form .btn {
-  font-size: 16px;
-  font-weight: bold;
-  background: #19aa8d;
-  border: none;
-  min-width: 140px;
-}
-.signup-form .btn:hover,
-.signup-form .btn:focus {
-  background: #179b81;
-  outline: none;
-}
-.signup-form a {
-  color: #fff;
-  text-decoration: underline;
-}
-.signup-form a:hover {
-  text-decoration: none;
-}
-.signup-form form a {
-  color: #19aa8d;
-  text-decoration: none;
-}
-.signup-form form a:hover {
-  text-decoration: underline;
-}
-.signup-form .fa {
-  font-size: 21px;
-}
-.signup-form .fa-paper-plane {
-  font-size: 18px;
-}
-.signup-form .fa-check {
-  color: #fff;
-  left: 17px;
-  top: 18px;
-  font-size: 7px;
-  position: absolute;
-}
-/* about us page================================================================ */
-.container {
-  background-color: rgb(7, 0, 0);
-}
-.list {
-  color: white;
-  list-style-type: none;
-  font-size: 20px;
-}
-.list a:hover {
-  color: rgb(57, 230, 18);
-}
-
-.reg {
-  color: rgb(0, 160, 100);
-  border: 1.5px rgb(0, 160, 100) solid;
-  border-radius: 2px;
-  margin-left: 50px;
-  padding: 8px;
-}
-.box1 {
-  background-color: rgba(0, 0, 0, 0.089);
-}
-
-li {
-  display: inline;
-}
-
-#apollo {
-  color: rgb(0, 160, 100);
-  font-size: 40px;
-  margin-right: 400px;
-}
-.go {
-  margin-left: 50px;
-}
-.go a {
-  color: white;
-  text-decoration: none;
-}
-
-.box1 p {
-  color: rgb(241, 241, 241);
-  font-family: tahoma;
-}
-.box1 h1 {
-  color: rgb(238, 255, 0);
-  font-family: tahoma;
-  text-align: center;
-  /* border: 1.5px yellow dashed; */
-  padding: 8px;
-}
-
-.box1 h2,
-h3,
-h4 {
-  color: rgb(0, 0, 255);
-  font-family: tahoma;
-}
-
-#contact {
-  border: 1.5px yellow solid;
-  padding: 20px;
-  color: rgb(255, 238, 238);
-  text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-#co {
-  color: yellow;
-}
-
-.carousel-item active {
-  width: 100px;
-}
-
-/* footer ============================================================================*/
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-body {
-  line-height: 1.5;
-  font-family: "Poppins", sans-serif;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.contain {
-  max-width: 1170px;
-  margin: auto;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-ul {
-  list-style: none;
-}
-.footer {
-  background-color: #24262b;
-  padding: 70px 0;
-}
-.footer-col {
-  width: 25%;
-  padding: 0 15px;
-}
-.footer-col h4 {
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 500;
-  position: relative;
-}
-.footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-}
-.footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
-}
-.footer-col ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  color: #bbbbbb;
-  display: block;
-  transition: all 0.3s ease;
-}
-.footer-col ul li a:hover {
-  color: #ffffff;
-  padding-left: 8px;
-}
-.footer-col .social-links a {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-  color: #ffffff;
-  transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover {
-  color: #24262b;
-  background-color: #ffffff;
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
 }
 
 /*responsive*/
-@media (max-width: 767px) {
-  .footer-col {
+@media(max-width: 767px){
+  .footer-col{
     width: 50%;
     margin-bottom: 30px;
-  }
 }
-@media (max-width: 574px) {
-  .footer-col {
+}
+@media(max-width: 574px){
+  .footer-col{
     width: 100%;
-  }
 }
+}
+
+
+
+
